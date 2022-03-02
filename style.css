@@ -1,53 +1,18 @@
+@import "css/header.css";
+@import "css/home.css";
+body {
+  background-color: rgb(97, 126, 101);
+}
+body > * {
+  background-color: rgb(236, 236, 236);
+  margin: 5px 10px;
+}
 li {
   list-style: none;
 }
-
-header {
-  background-color: #eee;
+h2 {
+  font-size: 16px;
 }
-
-#wrap {
-  overflow: auto;
-  margin: 20px 0px;
-}
-
-.left,
-.right,
-.realright {
-  float: left;
-  height: 200px;
-}
-
-.left {
-  width: 17%;
-  margin-right: 3%;
-  background-color: #47c;
-}
-
-.right {
-  width: 60%;
-  text-align: center;
-  background-color: #47c;
-}
-
-.realright {
-  width: 17%;
-  margin-left: 3%;
-  background-color: #67c;
-}
-
-.right > h2 {
-  position: relative;
-}
-
-.right .emoticon {
-  position: absolute;
-  top: 0px;
-  right: 5%;
-  color: #fff;
-}
-
-footer {
-  background-color: #eee;
-  clear: left;
+h3 {
+  font-size: 14px;
 }

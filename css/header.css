@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 10px;
+}
+.header-list {
+  display: flex;
+}
+
+.header-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(157, 255, 255);
+  margin: 5px 10px;
+}
